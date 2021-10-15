@@ -43,5 +43,5 @@
 * https://developer.mozilla.org/en-US/docs/Web/CSS/text-overflow
  */
 #p5 {
-    text-overflow: ;
+    text-overflow: clip;
 }
