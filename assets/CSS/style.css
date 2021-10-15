@@ -1,0 +1,47 @@
+/*=============================================================================================
+* argument letter-spacing is used to deal with the space between letters,
+* value can be normal , inherit, initial, unset or a value in em or px
+* https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing
+ */
+#p1 {
+    letter-spacing: 3px;
+}
+
+
+/*=====================================================================================================
+* argument text-anchor is used to set the point where a text begin. value can be start, middle or end
+* https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/text-anchor
+ */
+#p2 {
+    text-anchor: end;
+}
+
+
+/*========================================================================================================
+*argument text-emphasis is used to add marks on the top of the characters. values are none, filled ,open
+*dot, circle, double-circle, triangle, sesame, a string who will be displayed as marks and a color
+*https://developer.mozilla.org/en-US/docs/Web/CSS/text-emphasis
+ */
+#p3 {
+    text-emphasis: triangle open green;
+}
+
+
+/*======================================================================================================
+* argument word-wrap is used to allow long words to be able to be broken and wrap onto the next line
+*values can be normal, break-word, initial or inherit
+* https://www.w3schools.com/cssref/css3_pr_word-wrap.asp
+ */
+#p4 {
+    word-wrap: break-word;
+}
+
+
+/*=======================================================================================================
+* argument text-overflow is used to allow the text to overflow it's container by different way.
+* values can be clip, ellipsis, <string> or fade
+* https://developer.mozilla.org/en-US/docs/Web/CSS/text-overflow
+ */
+#p5 {
+    text-overflow: ;
+}
